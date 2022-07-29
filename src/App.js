@@ -16,7 +16,7 @@ function App() {
       taskName: newTask,
       completed: false,
     };
-    setTodoList([...todoList, task]);
+    setTodoList(task.taskName !== "" ? [...todoList, task] : todoList);
   };
 
   const deleteTask = (id) => {
