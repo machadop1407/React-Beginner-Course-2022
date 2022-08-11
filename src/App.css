@@ -30,19 +30,11 @@ body {
   flex-direction: column;
 }
 
-.task {
-  width: 500px;
-  height: 50px;
+form {
   display: flex;
-  margin: 15px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  flex-direction: column;
 }
 
-.task button {
-  width: auto;
-  height: 20px;
-  margin-left: 5px;
-  text-align: center;
+p {
+  color: red;
 }
