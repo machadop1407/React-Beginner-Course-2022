@@ -46,3 +46,41 @@ body {
   font-size: 15px;
   border-radius: 50%;
 }
+
+input,
+textarea {
+  font-family: "Nunito", sans-serif;
+}
+
+.create-post {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+form {
+  margin-top: 50px;
+  padding: 30px 20px;
+  width: 320px;
+  border-radius: 7px;
+  background-color: white;
+  backdrop-filter: blur(5px);
+  background-color: rgba(43, 0, 255, 0.588);
+  overflow: hidden;
+}
+
+input,
+textarea {
+  padding: 8px 10px;
+  margin: 3px 8px 16px 8px;
+  background-color: rgba(222, 239, 248, 0.877);
+  border: 0px transparent;
+  border-radius: 5px;
+  color: rgb(97, 4, 184);
+  font-size: 16px;
+  z-index: 1;
+}
+
+.submitForm:hover {
+  cursor: pointer;
+}
